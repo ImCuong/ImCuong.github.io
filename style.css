@@ -1,0 +1,30 @@
+
+.text-center {
+	text-align: center;
+}
+
+.avatar img {
+	width: 150px;
+    border-radius: 50%;
+}
+
+.name {
+	color: #2DC9CC;
+}
+
+.info {
+	margin-top: 5px;
+}
+
+.info a {
+	text-decoration: none;
+	color: #30B0B3;
+}
+
+.info b {
+	color: #30B0B3;
+}
+
+.info i {
+
+}
