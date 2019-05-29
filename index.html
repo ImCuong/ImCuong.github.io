@@ -2,16 +2,102 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
 	<title>I'm Cuong</title>
+	
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+	
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="assets/css/style.css">
 
-	<link rel="stylesheet" href="style.css">
+	<style>
+		
+	</style>
+
 </head>
 <body>
 	
-	<div style="text-align: center;">
-		<h1>Hello World!</h1>
+	<div class="d-flex" id="wrapper">
+
+		<div class="text-center" id="sidebar-wrapper">
+			
+			<div class="avartar-wrapper">
+				<img class="avartar" src="images/ImCuong.jpg" alt="ImCuong">
+			</div>
+			
+			<div class="sidebar-heading">
+				<h1>I'm Cuong</h1>
+			</div>
+			
+
+			<div class="list-socical">   
+		        <a href="https://www.instagram.com/" class="list-socical-item" target="blank_">Instagram</a>
+		        <a href="https://twitter.com/" class="list-socical-item" target="blank_">Twitter</a>
+		        <a href="https://www.youtube.com/channel/UClyxvh446klV151zRZNMiKQ" class="list-socical-item" target="blank_">Youtube</a>
+	      	</div>
+
+		</div>
+		
+		<div class="over" id="over">
+			
+		</div>
+
+		<div id="page-content-wrapper">
+			
+			<nav class="navbar nav-toggle">
+		        
+				<div class="bar-wrapper" onclick="changeBar(this)">
+					<div class="bar1"></div>
+					<div class="bar2"></div>
+					<div class="bar3"></div>
+				</div>
+				
+				<div class="bar-wrapper ">
+					<div class="bar1"></div>
+					<div class="bar2"></div>
+					<div class="bar3"></div>
+				</div>
+
+				<div class="theme-switch-wrapper">
+					<label class="theme-switch">
+						<input type="checkbox">
+						<span class="slider round"></span>
+					</label>
+				</div>	
+		    </nav>
+			
+
+			<nav class="navbar nav-main" id="nav-main">
+				<a href="#">HTML</a>
+				<a href="#">CSS</a>
+				<a href="#">JS</a>
+				<a href="#">PHP</a>
+				<a href="#">C++</a>
+				<a href="#">Git</a>
+				<a href="#">Blender</a>
+			</nav>
+
+			<div class="container-fluid">
+
+				<h1 class="mt-4">Simple Sidebar</h1>
+
+				<p>The starting state of the menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will change.</p>
+
+        		<p>Make sure to keep all page content within the <code>#page-content-wrapper</code>. The top navbar is optional, and just for demonstration. Just create an element with the <code>#menu-toggle</code> ID which will toggle the menu when clicked.</p>
+
+			</div>
+
+		</div>
+
 	</div>
 
-	<script src="js.js"></script>
+	<!-- Bootstrap JS -->
+	<script src = "assets/bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- Custom JS -->
+	<script src="assets/js/js.js"></script>
+
 </body>
 </html>
